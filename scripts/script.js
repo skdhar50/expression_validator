@@ -15,7 +15,6 @@ function show_section(element) {
 
 // Checking
 function check_validity(value) {
-	console.log(value);
 	if (value) {
 		show_section(valid);
 		setTimeout(function () {
